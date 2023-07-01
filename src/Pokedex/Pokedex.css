@@ -1,0 +1,13 @@
+.Pokedex-title {
+  text-align: center;
+  color: grey;
+}
+.Pokedex-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+}

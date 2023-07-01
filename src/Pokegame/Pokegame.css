@@ -1,0 +1,19 @@
+.Pokegame-player2 {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.Pokegame-VS {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 300px;
+}
+
+.Pokegame-Winner {
+  text-align: center;
+  transform: translate(0, 200px);
+  color: limegreen;
+}
